@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/logo_ncfv2"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/logoNfc" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/scroll_margin_top"
+        android:layout_below="@id/icon"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonTag"
+                style="@style/button_main"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_main"
+                android:text="@string/tag"
+                android:textSize="@dimen/btn_text_size" />
+
+            <Button
+                android:id="@+id/buttonNim"
+                style="@style/button_main"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_main"
+                android:text="@string/Mnim"
+                android:textSize="@dimen/btn_text_size" />
+
+            <Button
+                android:id="@+id/buttonName"
+                style="@style/button_main"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_main"
+                android:text="@string/Mname"
+                android:textSize="@dimen/btn_text_size" />
+
+            <Button
+                android:id="@+id/buttonEvent"
+                style="@style/button_main"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_main"
+                android:text="@string/event"
+                android:textSize="@dimen/btn_text_size" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

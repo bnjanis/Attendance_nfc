@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorHeroLightBlue">#33C5FF</color>
+    <color name="colorHeroPink">#d667cd</color>
+    <color name="colorHeroLightPink">#DD7ED5</color>
+    <color name="colorGrey">#9e9e9e</color>
+    <color name="white">#ffffff</color>
+    <color name="btn_pressed">#d32f2f</color>
+    <color name="btn_stroke">#f44336</color>
+    <color name="btn_stroke_pressed">#d32f2f</color>
+    <color name="buttonMaterial_dark">#ff51595b</color>
+    <color name="buttonMaterial_light">#ffd6d7d7</color>
+    <color name="primary">#f44336</color>
+    <color name="primary_dark">#ff000000</color>
+    <color name="primaryDark_materialDark">#ff000000</color>
+</resources>
